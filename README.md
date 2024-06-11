@@ -10,7 +10,7 @@ A server running Ubuntu 14.04 or later with Dokku installed.
 As a user with access to `sudo`
 
 ```
-wget https://github.com/beydogan/dokku-daemon-go/releases/download/v0.1.1/dokku-daemon-go-linux64
+wget https://github.com/timonweb-forks/dokku-daemon-go/raw/master/builds/dokku-daemon-go-linux64
 chmod +x dokku-daemon-go-linux64
 sudo ./dokku-daemon-go-linux64 install
 sudo service dokku-daemon start
